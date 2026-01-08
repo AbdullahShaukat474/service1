@@ -1,6 +1,6 @@
 #!/bin/bash
 cd /home/ubuntu/microservices/service1
-
+git pull
 docker build -t service1:latest .
 
 docker run -d \
