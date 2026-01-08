@@ -1,4 +1,4 @@
 #!/bin/bash
-docker stop service1 || true
-docker rm service1 || true
-docker rmi service1:latest || true
+sudo docker stop service1 || true
+sudo docker rm service1 || true
+sudo docker rmi service1:latest || true
