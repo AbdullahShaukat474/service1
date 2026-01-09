@@ -9,4 +9,5 @@
 #  --restart always \
 #  service1:latest
 #
-sudo docker compose pull && sudo docker compose up -d && sudo docker image prune -f
+
+cd /home/ubuntu/service1 && sudo docker compose pull && sudo docker compose up -d && sudo docker image prune -f
